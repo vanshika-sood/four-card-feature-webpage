@@ -1,0 +1,94 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #FAFAFA;
+}
+
+h2{
+  color: #53556A;
+  font-weight: 600;
+}
+
+h1{
+  color:#53556A;
+  font-weight: 200;
+}
+
+p{
+ font-family: 'Roboto', sans-serif;
+  color:#414249;
+  font-weight: 200;
+}
+
+
+/* Title Section */
+
+.title-section{
+  text-align: center;
+  padding-top: 80px;
+}
+
+.title-para{
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+
+
+
+.feature-cards{
+  width: 20%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px 0 #888888;
+}
+
+.feature-img{
+  text-align: right;
+  padding-top: 20px;
+}
+
+
+.team-build{
+
+  border-top: 5px solid red ;
+
+}
+
+
+.supervisor{
+
+  border-top: 5px solid cyan;
+  right: 330px;
+  bottom: 90px;
+
+}
+
+
+.karma{
+
+  border-top: 5px solid yellow;
+  bottom:203px;
+
+}
+
+.cal{
+
+  border-top: 5px solid blue;
+  left:330px;
+  bottom: 553px;
+
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+.feature-cards{
+  position: static;
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+}
